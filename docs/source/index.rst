@@ -41,6 +41,7 @@ This project was developed for a Final Year exam on the Traffic Analysis Course 
     splunkbasic
     syslog
     umbrella
+    splunkadvanced
 
 .. toctree::
     :maxdepth: 3
