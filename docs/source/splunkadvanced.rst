@@ -1,5 +1,5 @@
 Splunk Searching and Dashboards
-^^^^
+====
 This section of our documentation outlines the steps and processes taken to setup our Splunk Instance to search and dashboard various datapoints on our network.
 
 1. The first step we took was insuring that splunk can search data and that output was returned.
