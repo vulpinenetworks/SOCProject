@@ -11,12 +11,7 @@ Cisco ASA-V Install Steps
     
     .. image:: img/quickq.png
 #. The next step we took in configuration was to set up out Access Lists to control traffic over the network. We chose the following settings.
-    
-    .. image:: img/acl1.png
-    
-    .. image:: img/acl2.png
-    
-    .. image:: img/acl3.png
+
 #. Next we confirmed and fixed any issues with the NAT Rules as well as set up Port Forwarding 
 
     
@@ -59,6 +54,10 @@ Cisco ASDM CLI Config Commands
 
 ASA Access Lists 
 ^^^^
+    
+.. image:: img/acl1.png
+.. image:: img/acl2.png
+.. image:: img/acl3.png
 - Allow ANY to WEBSEVER on 22 and 80
 - Deny WorkstationUser ManagementPorts on Servers
 - Allow WORKSTATION to ANY
