@@ -46,7 +46,7 @@ This project was developed for a Final Year exam on the Traffic Analysis Course 
 .. toctree::
     :maxdepth: 3
     :numbered:
-    :caption: This is an incredibly long caption for a long menu
+    :caption: Simulated Attacks
     :hidden:
 
-    demo/long
+    attacker
