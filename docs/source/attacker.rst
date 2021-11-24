@@ -49,3 +49,18 @@ Then once we are in the MSF console we will run the following to scan our vuln f
         msf6 > wmap_run -e
         msf6 > wmap_vulns -l
         
+        
+Internal Windows Machine
+----
+As a demo we simulated a internal machine accessing blocked resources, botnet IP addresses and attempting to execute a RAT file which would be blocked by Windows Defender
+    .. code-block:: powershell
+
+        msf6 > load wmap
+        msf6 > wmap_sites -l
+        msf6 > wmmap_targets -t http://10.180.110.250/dvwa/index.php
+        msf6 > wmap_run -t
+        msf6 > wmap_run -e
+        msf6 > wmap_vulns -l
+        
+        
+
