@@ -4,14 +4,15 @@
       the administrator interface a static IP address to do this we
       accessed the direct console of the ASAv and issued the following
       commands
+.. code-block:: console
 
-ASAv(config)# interface gigabitEthernet 0/1
- ASAv(config-if)# nameif Workstation
- ASAv(config-if)# security-level 100
- ASAv(config-if)# ip address 172.16.0.1 255.255.255.0
-
-ASAv(config)# dhcpd address 172.16.0.10–172.16.0.1 Workstation
- ASAv(config)# dhcpd enable Workstation
+    You shell commands go he
+    ASAv(config)# interface gigabitEthernet 0/1
+    ASAv(config-if)# nameif Workstation
+    ASAv(config-if)# security-level 100
+    ASAv(config-if)# ip address 172.16.0.1 255.255.255.0
+    ASAv(config)# dhcpd address 172.16.0.10–172.16.0.1 Workstation
+    ASAv(config)# dhcpd enable Workstation
 
 .. container::
 
