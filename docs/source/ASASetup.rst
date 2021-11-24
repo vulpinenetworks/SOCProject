@@ -12,7 +12,11 @@ Cisco ASA-V Install Steps
 #. Next we enabled Scanning Threat Detection on the ASAv appliance which allows the ASA to monitor traffic and detect activity that is commonly related to attacks such as DDoS or Scanning Attacks.
 #.  Next we enabled the botnet traffic filter to allow the ASA to monitor traffic going to known botnet sources and stop identified traffic from reaching its destination. 
 #.  Next we setup the ASA to log events higher then Notifications to send log events to the Syslog server. 
-#. We then identified the syslog server in the ASA appliance by setting the IP and interface our server sits o
+#. We then identified the syslog server in the ASA appliance by setting the IP and interface our server sits on.
+#.We then identified the syslog server in the ASA appliance by setting the IP and interface our server sits o
+#. Then as a demo we enabled Cisco WebSSL Clientless VPN on theoutside interface (this was done by using the VPN Wizard)
+#. Additional interface’s then had DHCP enabled if applicable
+#.  Finally we set the DNS to be resolved by Cisco Umbrella
 
 .. container::
 Cisco ASA-V Management Interface ASDM CLI Code
