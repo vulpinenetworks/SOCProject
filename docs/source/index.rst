@@ -9,8 +9,7 @@ AWS is a trademark of Amazon Inc.
 All trademarks rightfully belong to their rights holders.
 
 
-Check out the :doc:`usage` section for further information, including
-how to :ref:`installation` the project.
+
 
 .. note::
 
