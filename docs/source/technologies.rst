@@ -1,8 +1,6 @@
 Technologies Used
 ====
 
-.. _Cisco ASA:
-
 Cisco ASA
 ------------
 
@@ -10,28 +8,21 @@ We chose to implement the Cisco ASA-V-5 Virtual Security Appliance.
 
 Because
 ^^^^^^
-- We choose to implement the ASA line of products because of its well-established presence in the IT Security Industry and for ease of configuration and Maintenace as well as support.
+- Of its well-established presence in the IT Security Industry and for ease of configuration and Maintenace as well as support.
 - The ASA has a vast array of built-in security measures such as ACL’s, Threat Detection, Scanning and Botnet filtering.
 
 
 
-Creating recipes
-----------------
+Cisco Umbrella DNS
+------------
 
-To retrieve a list of random ingredients,
-you can use the ``lumache.get_random_ingredients()`` function:
+We chose to implement the Cisco ASA-V-5 Virtual Security Appliance.
 
-.. autofunction:: lumache.get_random_ingredients
+Because
+^^^^^^
+- In addition to the ASA, we implemented network wide Cisco Umbrella (OpenDNS) DNS to detect malicious activity at the source on our network.
+- Umbrella also was chosen to ensure end-user compliance on our network by restricting access to timewasting and adult sites.
+- Umbrella further selected due to its ability to block systems such as DNSVPN and Crypto-mining Applications.
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`lumache.get_random_ingredients`
-will raise an exception.
 
-.. autoexception:: lumache.InvalidKindError
-
-For example:
-
->>> import lumache
->>> lumache.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
 
