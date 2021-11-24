@@ -17,4 +17,5 @@ Contents
 
    technologies
    ASASetup
-   Syslog
+   syslog
+   splunkbasic
