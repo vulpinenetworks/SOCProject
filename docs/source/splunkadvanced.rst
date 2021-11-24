@@ -45,14 +45,14 @@ Data and then a Log View.
  .. image:: https://vulpinenetworkscdn.s3.ca-central-1.amazonaws.com/SSHLockedOut.png
 
 
-7 .The next datapoint we logged was BotNet Traffic, this filter allows us to see identified Botnet Traffic.
+6 .The next datapoint we logged was Botnet Traffic, this filter allows us to see identified Botnet Traffic.
 
  .. code-block:: bash
  
    host="_gateway" blacklist | stats sum(linecount) as total
    host="_gateway"
 
- The first query searches for text sums all the records that match and then saves it as a variable, and then graphs it, the second search sums all DNS events and the third search displays a events log of the search results.
+ The first search sums all botnet events and the second search displays a events log of the search results.
  
  .. image:: https://vulpinenetworkscdn.s3.ca-central-1.amazonaws.com/Botnet.png
 
