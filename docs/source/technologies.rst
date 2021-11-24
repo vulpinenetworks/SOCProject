@@ -1,9 +1,9 @@
-Usage
-=====
+Technologies Used
+====
 
-.. _installation:
+.. _Cisco ASA:
 
-Installation
+Cisco ASA
 ------------
 
 To use Lumache, first install it using pip:
