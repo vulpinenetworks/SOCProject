@@ -13,21 +13,10 @@
     ASAv(config)# dhcpd address 172.16.0.10–172.16.0.1 Workstation
     ASAv(config)# dhcpd enable Workstation
 .. container::
+
 Numbered List
 -------------
 
-#. One,
-#. Two.
-#. Three with long text. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
-   Sed feugiat sagittis neque quis eleifend. Duis rutrum lectus sit amet mattis suscipit.
-
-   #. Once the commands were issued and DHCP was enabled we were able to
-      switch to the Admin workstation and connect to the ASA’s internal
-      webserver to download the ASDM Utility.
-   #.  Once the ASDM utility was installed and connection was
-         established to the ASAv, we chose to use the Quick Start Wizard
-         to set up basic Interface settings and other configuration
-         points such as NAT and the outside interface.
-   #. The next step we took in configuration was to set up out Access
-         Lists to control traffic over the network. We chose the
-         following settings.
+#. Once the commands were issued and DHCP was enabled we were able to switch to the Admin workstation and connect to the ASA’s internal webserver to download the ASDM Utility.
+#.  Once the ASDM utility was installed and connection was established to the ASAv, we chose to use the Quick Start Wizard to set up basic Interface settings and other configurationpoints such as NAT and the outside interface.
+#. The next step we took in configuration was to set up out Access Lists to control traffic over the network. We chose the following settings.
