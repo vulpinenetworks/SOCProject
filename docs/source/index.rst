@@ -17,10 +17,8 @@ how to :ref:`installation` the project.
    :maxdepth: 2
    :hidden:
 
-   installing
-   configuring
-   development
-   contributing
+   technologies
+   
 
 .. toctree::
    :maxdepth: 1
