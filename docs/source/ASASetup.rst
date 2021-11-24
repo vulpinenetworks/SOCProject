@@ -1,5 +1,6 @@
 
 .. container::
+
 Cisco ASA-V Install Steps
 -------------
 #. The first step we took in setting up our Cisco ASAv is assigning the administrator interface a static IP address to do this we accessed the direct console of the ASAv and issued the following commands (seen below)
@@ -9,7 +10,11 @@ Cisco ASA-V Install Steps
 #. Next we confirmed and fixed any issues with the NAT Rules as well as set up Port Forwarding 
 #.  Next we enabled and modified the Basic Traffic Inspection on the ASA to allow ICMP and ICMP errors to allow ping traffic through the gateway as this is not allowed by default.
 #. Next we enabled Scanning Threat Detection on the ASAv appliance which allows the ASA to monitor traffic and detect activity that is commonly related to attacks such as DDoS or Scanning Attacks.
+#.  Next we enabled the botnet traffic filter to allow the ASA to monitor traffic going to known botnet sources and stop identified traffic from reaching its destination. 
+#.  Next we setup the ASA to log events higher then Notifications to send log events to the Syslog server. 
+#. We then identified the syslog server in the ASA appliance by setting the IP and interface our server sits o
 
+.. container::
 .. code-block:: console
 
     ASAv(config)# interface gigabitEthernet 0/1
@@ -18,3 +23,5 @@ Cisco ASA-V Install Steps
     ASAv(config-if)# ip address 172.16.0.1 255.255.255.0
     ASAv(config)# dhcpd address 172.16.0.10–172.16.0.1 Workstation
     ASAv(config)# dhcpd enable Workstation
+
+.. container::
