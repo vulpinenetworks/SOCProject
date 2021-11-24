@@ -16,7 +16,7 @@ Because
 Cisco Umbrella DNS
 ------------
 
-We chose to implement the Cisco ASA-V-5 Virtual Security Appliance.
+We chose to implement the Cisco Umbrella DNS.
 
 Because
 ^^^^^^
@@ -24,5 +24,15 @@ Because
 - Umbrella also was chosen to ensure end-user compliance on our network by restricting access to timewasting and adult sites.
 - Umbrella further selected due to its ability to block systems such as DNSVPN and Crypto-mining Applications.
 
+Splunk
+------------
 
+We chose to implement Splunk.
+
+Because
+^^^^^^
+- Of its wide array of supported systems and flexibility to log any structure or source with a wide array of methods.
+- Splunk has been proven to lower companies risks of data breaches and fraud due to its complex searching and visualization platform.
+- Umbrella further selected due to its ability to block systems such as DNSVPN and Crypto-mining Applications.
+- Splunk hooked in to rsyslog and AWS to provide logging on various network datapoints.
 
