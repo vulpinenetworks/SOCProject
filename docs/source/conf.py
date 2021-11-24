@@ -2,9 +2,9 @@
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'SOC IDS Project'
+copyright = '2021, Connor Genyk and Kaushalbhai Patel '
+author = 'Connor Genyk and Kaushalbhai Patel'
 
 release = '0.1'
 version = '0.1.0'
