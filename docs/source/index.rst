@@ -2,11 +2,11 @@ SOC IDS IPS Final Project For MITT CDCA TRAFFIC ANALYSIS COURSE
 ===================================
 
 This project was developed for a Final Year exam on the Traffic Analysis Course at Manitoba Inst. Trades and Technologies.
-This project and its contents remain copyright of Connor Genyk and Kaushalbhai Patel.
-Cisco and Cisco Umbrella are Trademarks of Cisco Inc
-Splunk is a trademark of 
-AWS is a trademark of Amazon Inc.
-All trademarks rightfully belong to their rights holders.
+   This project and its contents remain copyright of Connor Genyk and Kaushalbhai Patel.
+- Cisco and Cisco Umbrella are Trademarks of Cisco Inc.
+- Splunk is a trademark of 
+- AWS is a trademark of Amazon Inc.
+- All trademarks rightfully belong to their rights holders.
 
 
 
