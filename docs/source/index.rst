@@ -15,5 +15,5 @@ Contents
 
 .. toctree::
 
-   usage
+   technologies
    api
