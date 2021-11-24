@@ -22,4 +22,13 @@ Data and then a Log View.
  
  .. image:: img\AuthError.png
 
+ 4 .The next datapoint we logged was ACL Deny events, this would allow a SOC Engineer high visibility in to actions on the network which are hitting a deny rule on the firewall.
+
+ .. code-block:: bash
+
+   host="_gateway" access-list deny | stats sum(linecount) as total
+   host="_gateway" access-list deny
+
+ The first query sums all the records that match "access-list deny" and the second one displays a events log of the search results.
  
+ .. image:: img\ACLDeny.png
