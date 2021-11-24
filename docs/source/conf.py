@@ -6,7 +6,7 @@ project = 'SOC IDS Project'
 copyright = '2021, Connor Genyk and Kaushalbhai Patel '
 author = 'Connor Genyk and Kaushalbhai Patel'
 
-release = '0.1'
+release = 'Non Presentation Draft'
 version = '0.1.0'
 
 # -- General configuration
@@ -30,6 +30,21 @@ templates_path = ['_templates']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'analytics_id': 'G-XXXXXXXXXX',  #  Provided by Google in your dashboard
+    'analytics_anonymize_ip': False,
+    'logo_only': False,
+    'display_version': True,
+    'prev_next_buttons_location': 'bottom',
+    'style_external_links': False,
+    'vcs_pageview_mode': '',
+    # Toc options
+    'collapse_navigation': True,
+    'sticky_navigation': True,
+    'navigation_depth': 4,
+    'includehidden': True,
+    'titles_only': False
+}
 
 # -- Options for EPUB output
 epub_show_urls = 'footnote'
