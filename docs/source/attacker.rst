@@ -53,52 +53,55 @@ Then once we are in the MSF console we will run the following to scan our vuln f
 Internal Windows Machine
 ----
 As a demo we simulated a internal machine accessing blocked resources, botnet IP addresses and attempting to execute a RAT file which would be blocked by Windows Defender
-    .. code-block:: powershell
-        ## Main File ##
-        echo "Running Blocked Site Preview"
-        cd "C:\Program Files\Google\Chrome\Application\"
-        .\chrome.exe internetbadguys.com
-
-        echo "Start Blocked DNS Traffic"
-        ping facebook.com
-        ping twitter.com
-        ping examplemalwaredommain.com
-
-        echo "Ping Allowed"
-        ping google.com
-        ping mitt.ca
-        ping cisco.com
-
-        echo "Botnet Traffic"
-        ping 34.102.136.180
-
-        cd C:\Users\Testuser\Desktop
-        .\Malware.ps1
-
-        echo "Running Blocked Site Preview"
-        cd "C:\Program Files\Google\Chrome\Application\"
-        .\chrome.exe internetbadguys.com
-
-        echo "Start Blocked DNS Traffic"
-        ping facebook.com
-        ping twitter.com
-        ping examplemalwaredommain.com
-
-        echo "Ping Allowed"
-        ping google.com
-        ping mitt.ca
-        ping cisco.com
-
-        echo "Botnet Traffic"
-        ping 34.102.136.180
-
-        cd C:\Users\Testuser\Desktop
-        .\Malware.ps1
-
-        ## Malware.PS1 ##
         
-        cd 'C:\Program Files\Google\Chrome\Application'
-        ./chrome.exe https://www.ikarussecurity.com/wp-content/downloads/eicar_com.zip
+        .. code-block:: bash
 
 
+            ## Main File ##
+            echo "Running Blocked Site Preview"
+            cd "C:\Program Files\Google\Chrome\Application\"
+            .\chrome.exe internetbadguys.com
 
+            echo "Start Blocked DNS Traffic"
+            ping facebook.com
+            ping twitter.com
+            ping examplemalwaredommain.com
+
+            echo "Ping Allowed"
+            ping google.com
+            ping mitt.ca
+            ping cisco.com
+
+            echo "Botnet Traffic"
+            ping 34.102.136.180
+
+            cd C:\Users\Testuser\Desktop
+            .\Malware.ps1
+
+            echo "Running Blocked Site Preview"
+            cd "C:\Program Files\Google\Chrome\Application\"
+            .\chrome.exe internetbadguys.com
+
+            echo "Start Blocked DNS Traffic"
+            ping facebook.com
+            ping twitter.com
+            ping examplemalwaredommain.com
+
+            echo "Ping Allowed"
+            ping google.com
+            ping mitt.ca
+            ping cisco.com
+
+            echo "Botnet Traffic"
+            ping 34.102.136.180
+
+            cd C:\Users\Testuser\Desktop
+            .\Malware.ps1
+
+            ## Malware.PS1 ##
+
+            cd 'C:\Program Files\Google\Chrome\Application'
+            ./chrome.exe https://www.ikarussecurity.com/wp-content/downloads/eicar_com.zip
+
+
+   
