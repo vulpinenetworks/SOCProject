@@ -42,10 +42,10 @@ Then once we are in the MSF console we will run the following to scan our vuln f
 
     .. code-block:: bash
 
-        msf6 > wmap
-        wmap_sites -l
-        wmmap_targets -t http://10.180.110.250/dvwa/index.php
-        wmap_run -t
-        wmap_run -e
-        wmap_vulns -l
+        msf6 > load wmap
+        msf6 > wmap_sites -l
+        msf6 > wmmap_targets -t http://10.180.110.250/dvwa/index.php
+        msf6 > wmap_run -t
+        msf6 > wmap_run -e
+        msf6 > wmap_vulns -l
         
