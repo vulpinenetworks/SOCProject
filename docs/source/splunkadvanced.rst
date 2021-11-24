@@ -31,4 +31,4 @@ Data and then a Log View.
 
  The first query sums all the records that match "access-list deny" and the second one displays a events log of the search results.
  
- .. image:: img\ACLDeny.png
+ .. image:: https://vulpinenetworkscdn.s3.ca-central-1.amazonaws.com/ACLDeny.png
