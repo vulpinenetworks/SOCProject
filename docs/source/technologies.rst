@@ -6,8 +6,13 @@ Technologies Used
 Cisco ASA
 ------------
 
-We chose to use the Cisco ASA 
-.. We choose to implement the ASA line of products because of its well-established presence in the IT Security Industry and for ease of configuration and Maintenace as well as support.
+We chose to implement the Cisco ASA-V-5 Virtual Security Appliance.
+
+Simple
+^^^^^^
+- We choose to implement the ASA line of products because of its well-established presence in the IT Security Industry and for ease of configuration and Maintenace as well as support.
+- The ASA has a vast array of built-in security measures such as ACL’s, Threat Detection, Scanning and Botnet filtering.
+
 
 
 Creating recipes
