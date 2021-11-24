@@ -57,4 +57,10 @@ Cisco ASDM CLI Config Commands
     ASAv(config)# dhcpd address 172.16.0.10–172.16.0.1 Workstation
     ASAv(config)# dhcpd enable Workstation
 
-
+ASA Access Lists 
+^^^^
+- Allow ANY to WEBSEVER on 22 and 80
+- Deny WorkstationUser ManagementPorts on Servers
+- Allow WORKSTATION to ANY
+- Allow SERVERS to ANY
+- Deny Any Remaining Traffic
