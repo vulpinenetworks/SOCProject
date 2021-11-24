@@ -6,11 +6,9 @@ Technologies Used
 Cisco ASA
 ------------
 
-To use Lumache, first install it using pip:
+We chose to use the Cisco ASA 
+.. We choose to implement the ASA line of products because of its well-established presence in the IT Security Industry and for ease of configuration and Maintenace as well as support.
 
-.. code-block:: console
-
-   (.venv) $ pip install lumache
 
 Creating recipes
 ----------------
