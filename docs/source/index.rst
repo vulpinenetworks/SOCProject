@@ -29,13 +29,13 @@ how to :ref:`installation` the project.
 .. toctree::
     :maxdepth: 2
     :numbered:
-    :caption: Demo Documentation
+    :caption: Install and Setup
     :hidden:
 
-    demo/structure
-    demo/demo
-    demo/lists_tables
-    demo/api
+    ASASetup
+    splunkbasic
+    syslog
+    umbrella
 
 .. toctree::
     :maxdepth: 3
