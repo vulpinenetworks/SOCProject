@@ -1,5 +1,7 @@
-.. container::
 
+.. container::
+Numbered List
+-------------
    #. The first step we took in setting up our Cisco ASAv is assigning
       the administrator interface a static IP address to do this we
       accessed the direct console of the ASAv and issued the following
@@ -14,8 +16,7 @@
     ASAv(config)# dhcpd enable Workstation
 
 
-Numbered List
--------------
+
 
 #. Once the commands were issued and DHCP was enabled we were able to switch to the Admin workstation and connect to the ASA’s internal webserver to download the ASDM Utility.
 #.  Once the ASDM utility was installed and connection was established to the ASAv, we chose to use the Quick Start Wizard to set up basic Interface settings and other configurationpoints such as NAT and the outside interface.
