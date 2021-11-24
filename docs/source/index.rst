@@ -14,8 +14,15 @@ Technologies Used
 --------
 
 .. toctree::
+   :caption: Theme Documentation
+   :maxdepth: 2
+   :hidden:
 
-   technologies
+   installing
+   configuring
+   development
+   contributing
+
 
 ASA Setup
 --------
