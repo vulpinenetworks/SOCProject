@@ -46,9 +46,8 @@ Umbrella to AWS S3 Bucket to Log File to Splunk Server
     cd /TESTDIR/
     echo "Working" >> /TESTDIR/file
     aws s3 sync s3://cisco-managed-ca-central-1/s3://cisco-managed-ca-central-1/7940666_50c08cffa1c94843903ff686e0b70afc19799fe5 /TESTDIR/
-    
-    
- 4. We then wrote a script to autommatically pull the files down from the s3 bucket
+      
+4. We then wrote a script to autommatically pull the files down from the s3 bucket
 
   .. code-block:: bash
   
