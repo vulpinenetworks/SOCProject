@@ -6,8 +6,8 @@ project = 'SOC IDS Project'
 copyright = '2021, Connor Genyk and Kaushalbhai Patel '
 author = 'Connor Genyk and Kaushalbhai Patel'
 
-release = 'Non Presentation Draft'
-version = '0.1.0'
+release = 'Final'
+version = '1.0.0'
 
 # -- General configuration
 
