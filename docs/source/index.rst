@@ -51,3 +51,11 @@ This project was developed for a Final Year exam on the Traffic Analysis Course 
 
     attacker
     results
+    
+.. toctree::
+    :maxdepth: 3
+    :numbered:
+    :caption: Lessons Learned
+    :hidden:
+
+    closing
