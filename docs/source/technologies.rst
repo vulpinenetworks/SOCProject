@@ -44,3 +44,19 @@ We chose to implement AWS.
 Method
 ^^^^^^
 - Amazon Web Services was chosen due to its logging integration with Cisco Umbrella which was then forwarded to our syslog server by a custom written script to send the data to Splunk.
+
+Pen Testing Tools
+------------
+
+We chose to implement a wide array of penetration testing tools to further our knowledge and research.
+
+
+DVWA
+------------
+
+We chose to implement the Damn Vuln. Web Application to test and research how pen testing tools operate.
+
+Operating Systems
+------------
+
+We chose to implement CentOS for Servers and Windows 10 for Workstations as well as a Kali Linux machine to act as a threat actor.
